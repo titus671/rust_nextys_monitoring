@@ -11,7 +11,11 @@ log = "0.4.27"
 serde = "1.0.219"
 serde_derive = "1.0.219"
 serialport = "4.7"
+sqlx = { version = "0.8", features = ["postgres", "ipnetwork", "runtime-tokio"]}
+tokio-serial = "5.4"
 tokio-modbus = { version = "0.16", features = ["rtu-sync", "rtu"] }
 toml = "0.9.5"
-sqlx = { version = "0.8", features = ["postgres", "runtime-tokio"]}
 tokio = { version = "1", features = ["full"] }
+local-ip-address = "0.6.5"
+anyhow = "1.0.99"
+chrono = "0.4.42"
